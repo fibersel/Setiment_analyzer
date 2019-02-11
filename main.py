@@ -37,7 +37,3 @@ def kek():
 	print("OK")
 	return flask.jsonify({"score": "OK"})
 
-
-if __name__ == 'main':
-	print('main')
-	app.run()
